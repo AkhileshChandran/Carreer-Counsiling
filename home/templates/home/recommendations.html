@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendation</title>
+</head>
+<body>
+    <h2>College Recommendations</h2>
+<ul>
+  {% for college in colleges %}
+    <li>{{ college.name }} - {{ college.location }}</li>
+  {% endfor %}
+</ul>
+
+</body>
+</html>
